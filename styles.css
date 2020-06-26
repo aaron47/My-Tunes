@@ -64,7 +64,7 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 100vh;
 }
 
 #section-main h1 {
@@ -79,13 +79,20 @@ nav ul li a {
 
 /*MUSIC SECTION-MIDDLE*/
 #music {
+  background-color: var(--mid-color);
+  color: #fff;
+}
+
+#music .container {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: var(--mid-color);
-  color: #fff;
-  padding: 2rem; 
+  flex-direction: column;
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
 }
 
 #music .section-head {
@@ -99,7 +106,11 @@ nav ul li a {
 }
 
 #music p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#music img {
+  flex: 2;
 }
 
 #music a, #video a {
