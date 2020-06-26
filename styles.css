@@ -128,12 +128,16 @@ nav ul li a {
 
 /*VIDEO SECTION--*/
 #video {
+  padding: 5rem;
+  background-color: var(--light-color);
+}
+
+#video .container {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
-  background-color: var(--light-color);
+  flex-direction: column;
 }
 
 #video h3 {
@@ -174,6 +178,14 @@ nav ul li a {
   background-color: var(--light-color);
 }
 
+#gift-cards .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
 .gift-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -182,6 +194,8 @@ nav ul li a {
 .gift-cards img {
   width: 580px;
   height: 394px;
+  margin: 0 auto;
+  padding: 0 3rem;
 }
 
 #gift-content {
